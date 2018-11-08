@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/homeBtnId"
+        android:icon="@drawable/home_icon"
+        android:title="Home"
+        app:showAsAction="always" />
+
+
+    <item
+        android:id="@+id/aboutUsId"
+        android:title="About Me" />
+
+
+    <item
+        android:id="@+id/SettingsId"
+        android:title="Settings" />
+
+    <item
+        android:id="@+id/FeedbackId"
+        android:title="Feedback" />
+
+
+    <item
+        android:id="@+id/exitId"
+        android:title="Exit" />
+
+</menu>
